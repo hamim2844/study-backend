@@ -24,7 +24,7 @@ app.post('/api/ask', async (req, res) => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'deepseek/deepseek-chat-v3-0324:free',
+        model: 'deepseek/deepseek-prover-v2:free',
         messages,
         temperature: 0.7,
         max_tokens: 1000
